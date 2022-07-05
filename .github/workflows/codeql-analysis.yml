@@ -51,8 +51,8 @@ jobs:
         
         # Details on CodeQL's query packs refer to : https://docs.github.com/en/code-security/code-scanning/automatically-scanning-your-code-for-vulnerabilities-and-errors/configuring-code-scanning#using-queries-in-ql-packs
         # queries: security-extended,security-and-quality
-        packs: yuuki1967/my-java-custom-queries@0.0.1:.github/workflows/my-java-custom-queries/emptythen.ql
-
+        packs: yuuki1967/my-java-custom-queries@0.0.1:.github/workflows/my-java-custom-queries
+        # queries: .github/workflows/my-java-custom-queries/emptythen.ql
         
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
