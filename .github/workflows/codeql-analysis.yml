@@ -39,7 +39,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-    - run: export CODEQL_REGISTRIES_AUTH-${{secrets.ACCESS_TOKEN}}
+    - run: export CODEQL_REGISTRIES_AUTH=${{secrets.ACCESS_TOKEN}}
     
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
