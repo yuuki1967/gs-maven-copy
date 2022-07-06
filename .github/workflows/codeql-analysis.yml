@@ -53,7 +53,7 @@ jobs:
         # queries: security-extended,security-and-quality
         packs: yuuki1967/my-java-custom-queries@0.0.1:my-java-custom-queries
         # queries: my-java-custom-queries/emptythen.ql@main
-        # external-repository-token: ${{ secrets.GITHUB_TOKEN }}
+        # external-repository-token: ${{ secrets.ACCESS_TOKEN }}
         
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
