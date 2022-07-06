@@ -45,6 +45,7 @@ jobs:
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
       with:
+        external-repository-token: ${{secrets.ACCESS_TOKEN}}
         languages: ${{ matrix.language }}
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
@@ -54,7 +55,6 @@ jobs:
         # queries: security-extended,security-and-quality
         packs: yuuki1967/my-java-custom-queries
         # queries: my-java-custom-queries/emptythen.ql@main
-        external-repository-token: ${{secrets.ACCESS_TOKEN}}
         debug: 'true'
     # Autobuild attempts to build any compiled languages  (C/C++, C#, or Java).
     # If this step fails, then you should remove it and run the build manually (see below)
