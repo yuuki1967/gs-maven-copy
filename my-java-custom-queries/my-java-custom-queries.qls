@@ -1,0 +1,4 @@
+- query: .
+- include:
+    kind: problem
+    precision: high
