@@ -50,6 +50,7 @@ jobs:
       
     - name: Check if you can write
       run: | 
+          touch /home/runner/.codeql/packages/test.txt
           echo "TEST" >> /home/runner/.codeql/packages/test.txt
           cat /home/runner/.codeql/packages/test.txt
           rm  /home/runner/.codeql/packages/test.txt
