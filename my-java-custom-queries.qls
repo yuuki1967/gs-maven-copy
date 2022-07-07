@@ -1,4 +1,4 @@
-- query: .
+- query: ./my-java-custom-queries
 - include:
     kind: problem
     precision: high
