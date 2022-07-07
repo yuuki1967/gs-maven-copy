@@ -1,0 +1,1 @@
+"Frequency counts for external APIs that are used with untrusted data","This reports the external APIs that are used with untrusted data, along with how frequently the API is called, and how many unique sources of untrusted data flow to it.","warning","This if statement has an empty then,","/src/main/java/hello/Greeter.java","5","3","5","20"
